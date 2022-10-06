@@ -31,7 +31,6 @@
 <!-- 26280000 -->
 4. What is the percentage of letters in the english alphabet that are vowels (including y)? Use the
    console to find out.
-   <!-- 19.23% -->
 
 5. Try the following expressions in the console:
 
@@ -46,7 +45,6 @@
 
    What is the significance of the result? How does the `%` (modulus) operator
    work?
-   <!--  it's the rest of euclidean  division  -->
 
 6. Try the following:
 
