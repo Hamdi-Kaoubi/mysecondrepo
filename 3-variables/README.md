@@ -19,14 +19,24 @@
    var true = false;
    var isTenEven = 10 % 2 = 0;
    ```
+   var animal = "maonkey";
+   var monkey = "animal";
+   var x = 15;
+   var vr = "huh?";
+   var tru = "false";
+   var isTenEven = 10%2;
 
 2. Perform the following in the console:
 
    + Create a variable `firstName` and assign your first name to it.
+   var firstname = 'hamdi';
    + Create another variable, `lastName`, and assign your last name to it.
+   var lastname = 'kaoubi';
    + Have a middle name? If so, repeat the process.
+   var middlename = 'ben mohamed';
    + Now, create a variable `fullName` and assign your full name to it by using
      the above variables.
+     var fullname = firstname + " " + " " + middlename + " " + " " + lastname
 
 
 3. For each of the following code blocks, **use a whiteboard (or a piece of paper)** to reason about
@@ -40,13 +50,14 @@
    x + 10;
    x; // => ???
    ```
-
+     x = 15
    ```js
    var x = 17;
    x = (x + 1) / 2;
    x * 4;
    x; // => ???
    ```
+   x = 36
 
    ```js
    var x = 5;
@@ -55,6 +66,7 @@
    y = y + 7;
    x; // => ???
    ```
+   x = 27
 
    ```js
    var x = 10;
@@ -64,6 +76,7 @@
    x = x + y;
    x; // => ???
    ```
+   x = 59
 
 4. Write a function called `counter` that, when invoked, always returns a number
    that is *one more* than the previous invocation. For instance:

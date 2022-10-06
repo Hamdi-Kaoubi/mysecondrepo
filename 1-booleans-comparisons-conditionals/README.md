@@ -9,17 +9,26 @@
 #### Comparison Operators
 
 1. Type the two boolean values -- `true` and `false` -- into your console.
-
+true
+false
 2. Use the console to accomplish the following:
 
     + Write an expression using `>` that will evaluate to `false`
+    1>2
     + Write an expression using `>` that will evaluate to `true`
+    2>1
     + Write an expression using `<` that will evaluate to `false`
+    2<1
     + Write an expression using `<` that will evaluate to `true`
+    1<2
     + Write an expression using two numbers and `===` that will evaluate to `true`
+    1===1
     + Write an expression using two numbers and `===` that will evaluate to `false`
+    2===3
     + Write an expression using two strings and `===` that will evaluate to `true`
+    '1'==='1'
     + Write an expression using two strings and `===` that will evaluate to `false`
+    '2'==='h'
 
 3. Fill in the `???` with the following operators or values to make the statements
    output the expected Boolean value.
@@ -27,20 +36,20 @@
    ```js
    12 ??? 78
    // => true
-
+12<78
    24 ??? 16
    // => false
-
+24<16
    45 !== ???
    // => true
-
+45 !== 50
    "45" ??? 45
    // => false
-
+"45" === 45
    "6" ??? "six"
    // => true
    ```
-
+  "6" < "six"
 4. Write a function `oldEnoughToDrink` that takes an `age` as an argument and
    returns `true` if the person with that age is old enough to drink.
 
@@ -84,22 +93,23 @@
    ```js
    106 ??? 12
    // => false
-
+106<12
    "wiz" ??? "wiz"
    // => true
-
+"wiz"==="wiz"
    7 * 7  ??? 49
    // => true
-
+7*7 === 49
    12 ??? (24 / 2)
    // => false
-
+12===(24/2)
    (20 % 2) <= ???
    // => true
-
+(20 % 2) <= 1
    (9 / 3) + (5 * 5) === ???
    // => true
    ```
+   (9 / 3) + (5 * 5) === 18
 
 2. Write the following functions that each accept a single number as an
    argument:
