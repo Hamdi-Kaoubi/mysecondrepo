@@ -27,6 +27,7 @@
    are they?
 they are different because of the parentheses
    ```js
+
    3 + 2 * 4 - 1
    10
    (3 + 2) * (4 - 1)
@@ -36,12 +37,18 @@ they are different because of the parentheses
 3. Calculate 50 years in minutes using the console.
 60 * 24 * 360 * 50
 25920000
+
+
+3. Calculate 50 years in minutes using the console.
+<!-- 26280000 -->
+
 4. What is the percentage of letters in the english alphabet that are vowels (including y)? Use the
    console to find out.
 
 5. Try the following expressions in the console:
 
    ```js
+
    6 % 2
    0
    42 % 10
@@ -54,6 +61,7 @@ they are different because of the parentheses
    3
    100 % 12
    4
+
    ```
 
    What is the significance of the result? How does the `%` (modulus) operator
@@ -62,6 +70,7 @@ they are different because of the parentheses
 6. Try the following:
 
    ```js
+
    3 % 2
    1
    4 % 2
@@ -70,14 +79,19 @@ they are different because of the parentheses
    1
    6 % 2
    0
+
    ```
 
    What do the results tell you about the first operand to the modulus operator?
 
+
+
 #### Strings
 
 1. Write a string that represents your full name.
+
 'hamdi kaoubi'
+
 2. Write a string that represents your favorite food.
 'rice with chicken'
 3. Use the `+` operator to combine (known as *concatenation*) two or more
@@ -98,6 +112,6 @@ they are different because of the parentheses
 
    ```js
    Where are all the quotes?
-   'hmm something is not right"
-   'Do other ' * 'operators work with string concatenation?
+   'hmm something is not right'
+   'Do other ' + 'operators work with string concatenation'
    ```
